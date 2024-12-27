@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  border: 2px black solid;
+  max-width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+
+  & button:hover {
+    cursor: pointer;
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.error {
+  color: red;
+}

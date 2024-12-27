@@ -1,0 +1,29 @@
+.wrapper {
+  border: 2px black solid;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 300px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & button {
+    height: 25px;
+  }
+  & button:hover {
+    cursor: pointer;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info .row {
+  display: flex;
+  gap: 10px;
+}
