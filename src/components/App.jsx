@@ -18,10 +18,8 @@ const App = () => {
   const isRefreshing = useSelector(selectIsRefreshing);
 const dispatch = useDispatch()
   useEffect(() => {
-    console.log("USEEFFECT");
     dispatch(refreshUser());
   dispatch(fetchContacts())
-
 }, [dispatch])
 
   return isRefreshing ? null : (
